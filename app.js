@@ -7,7 +7,7 @@ const userRoute =require('./api/routes/users');
 const orderRoute = require('./api/routes/orders');
 const productRoute = require('./api/routes/products');
 
-const uri = "mongodb+srv://Vaibhav:WYG7yhJcktXR4EgR@order.6qxof.mongodb.net/orders?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Vaibhav:CnmPJnuphSR0YDp3@order.6qxof.mongodb.net/orders?retryWrites=true&w=majority";
 
 mongoose.connect(uri,{ useNewUrlParser: true }).then(() => console.log("MongoDB connected")) .catch((err) => console.log(err));
 
